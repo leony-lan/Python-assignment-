@@ -1,0 +1,72 @@
+# Arithmetic operations
+a = 10
+b = 5
+
+# Addition
+sum_result = a + b
+print("Addition:", sum_result)
+
+# Subtraction
+sub_result = a - b
+print("Subtraction:", sub_result)
+
+# Multiplication
+mul_result = a * b
+print("Multiplication:", mul_result)
+
+# Division
+div_result = a / b
+print("Division:", div_result)
+
+# Modulus (Remainder)
+mod_result = a % b
+print("Modulus:", mod_result)
+
+# Exponentiation (Power)
+exp_result = a ** b
+print("Exponentiation:", exp_result)
+# String operations
+name = "Python Programming"
+
+# String length
+print("Length of string:", len(name))
+
+# Convert to uppercase
+print("Uppercase:", name.upper())
+
+# Convert to lowercase
+print("Lowercase:", name.lower())
+
+# Concatenation
+greeting = "Hello"
+message = greeting + ", " + name + "!"
+print("Concatenated String:", message)
+
+# Repeating strings
+repeat_text = "Python! " * 3
+print("Repeated Text:", repeat_text)
+
+# String slicing
+print("First 6 characters:", name[:6])
+print("Last 6 characters:", name[-6:])
+# Different data types
+int_num = 10  # Integer
+float_num = 3.14  # Float
+complex_num = 2 + 3j  # Complex number
+bool_val = True  # Boolean
+string_val = "Hello, Python!"  # String
+list_val = [1, 2, 3, 4]  # List
+tuple_val = (10, 20, 30)  # Tuple
+set_val = {5, 10, 15}  # Set
+dict_val = {"name": "Alice", "age": 25}  # Dictionary
+
+# Printing values and their types
+print("Integer:", int_num, "Type:", type(int_num))
+print("Float:", float_num, "Type:", type(float_num))
+print("Complex:", complex_num, "Type:", type(complex_num))
+print("Boolean:", bool_val, "Type:", type(bool_val))
+print("String:", string_val, "Type:", type(string_val))
+print("List:", list_val, "Type:", type(list_val))
+print("Tuple:", tuple_val, "Type:", type(tuple_val))
+print("Set:", set_val, "Type:", type(set_val))
+print("Dictionary:", dict_val, "Type:", type(dict_val))
